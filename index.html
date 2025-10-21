@@ -64,6 +64,17 @@
             line-height: 1.6;
         }
 
+        .subtitle a {
+            color: #111;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            transition: border-color 0.15s ease;
+        }
+
+        .subtitle a:hover {
+            border-bottom-color: #111;
+        }
+
         .social-links {
             display: flex;
             justify-content: center;
@@ -146,6 +157,15 @@
                 color: #999;
             }
 
+            .subtitle a {
+                color: #fff;
+                border-bottom-color: rgba(255, 255, 255, 0.3);
+            }
+
+            .subtitle a:hover {
+                border-bottom-color: #fff;
+            }
+
             .profile-image {
                 border-color: rgba(255, 255, 255, 0.1);
             }
@@ -181,7 +201,7 @@
              class="profile-image">
 
         <h1>Basil Arackal</h1>
-        <p class="subtitle">Solutions Architect at riafy.me</p>
+        <p class="subtitle">Solutions Architect at <a href="https://riafy.me" target="_blank" rel="noopener noreferrer">riafy.me</a></p>
 
         <div class="social-links">
             <a href="https://github.com/BasilArackal" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
